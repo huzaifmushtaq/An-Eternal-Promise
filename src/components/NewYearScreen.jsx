@@ -49,7 +49,7 @@ export default function NewYearScreen({ onNext }) {
           <p>
             رعفتیں اور بلندی بھی تجھ پہ ناز کرے<br />
             تیری یہ عمرِ خُدا اور بھی دراز کرے <br />
-            peace, and moments that make you smile.
+            
           </p>
         </motion.div>
 
