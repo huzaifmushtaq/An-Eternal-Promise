@@ -36,9 +36,10 @@ export default function CuteLoader({ onComplete }) {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5 }}
             >
-                Something special is coming...<br />
-            Lets witness everything together<br />
-            May we love till Eternity SaimZgeniE !!
+             Today Our Dearest Mehru Turned 20 🥰<br />
+            You deserve the kind of happiness <br /> 
+            You secretly wish for others.<br />
+        
             </motion.h2>
 
             <motion.div
@@ -72,7 +73,7 @@ export default function CuteLoader({ onComplete }) {
                 transition={{ delay: 2, duration: 0.6 }}
                 className="mt-6 bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-3 text-lg font-semibold rounded-full pulse-glow transition-all duration-300 hover:scale-105 shadow-lg"
             >
-                Moving Together 🌸 →
+                One Step Closer 🌸 →
             </motion.button>
 
         </motion.div>

@@ -45,11 +45,11 @@ export default function FirstScreen({ onNext }) {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 1, duration: 0.8 }}
                 >
-                    I have something{" "}
+                   You might have many physical gifts but {" "}
                     <span className="font-bold bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
-                        special
+                        First Digital Gift
                     </span>{" "}
-                    to tell you...
+                    this is, for ev ... ✨
                 </motion.h1>
 
                 {/* Subtitle */}
@@ -59,7 +59,7 @@ export default function FirstScreen({ onNext }) {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 1.5, duration: 0.8 }}
                 >
-                    Something that will change everything✨
+                    In another lifetime, I’d still choose your friendship.✨
                 </motion.p>
 
                 <motion.div

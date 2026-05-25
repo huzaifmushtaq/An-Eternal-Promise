@@ -26,19 +26,19 @@ export default function PhotoScreen({ onNext }) {
     const photos = [
         {
             id: 1,
-            src: "/images/2.jpeg",
+            src: "",
         },
         {
             id: 2,
-            src: "/images/4.jpeg",
+            src: "",
         },
         {
             id: 3,
-            src: "/images/3.jpeg",
+            src: "",
         },
         {
             id: 4,
-            src: "/images/1.jpeg",
+            src: "",
         },
     ]
 
@@ -135,7 +135,7 @@ export default function PhotoScreen({ onNext }) {
                     className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105 shadow-lg flex items-center justify-center mx-auto pointer-events-auto"
                 >
                     <Heart className="w-5 h-5 mr-2 fill-current heartbeat-animation" />
-                    See the Message
+                    Final Step 💕
                     <ArrowRight className="w-5 h-5 ml-2" />
                 </button>
             </motion.div>
