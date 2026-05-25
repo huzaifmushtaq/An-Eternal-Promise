@@ -33,9 +33,9 @@ export default function NewYearScreen({ onNext }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.9, duration: 0.8 }}
         >
-          Happy{" "}
+          Hello{" "}
           <span className="font-bold bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
-            New Year Saim
+            Dearest Mehru 
           </span>
         </motion.h1>
 
@@ -47,8 +47,8 @@ export default function NewYearScreen({ onNext }) {
           transition={{ delay: 1.4, duration: 0.8 }}
         >
           <p>
-            As this new year begins,<br />
-            I just wanted to wish you happiness,<br />
+            رعفتیں اور بلندی بھی تجھ پہ ناز کرے<br />
+            تیری یہ عمرِ خُدا اور بھی دراز کرے <br />
             peace, and moments that make you smile.
           </p>
         </motion.div>
