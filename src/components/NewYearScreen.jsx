@@ -35,7 +35,7 @@ export default function NewYearScreen({ onNext }) {
         >
           Hello, Our{" "}
           <span className="font-bold bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
-            Dearest Mehru 🥰
+            Dearest Mehru 🙈
           </span>
         </motion.h1>
 
