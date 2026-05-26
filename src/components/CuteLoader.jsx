@@ -36,7 +36,7 @@ export default function CuteLoader({ onComplete }) {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5 }}
             >
-             Today Our Dearest Mehru Turned 20 🥰<br />
+             Today our dearest Mehru turned 20 <br />
             You deserve the kind of happiness <br /> 
             You secretly wish for others.<br />
         
