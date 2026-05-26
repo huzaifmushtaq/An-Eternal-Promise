@@ -21,7 +21,7 @@ export default function QuestionScreen({ question, onYes, isFirst }) {
                 showConfirmButton: false,
             })
         } else {
-            // Second question - "Do you like me?"
+            // Second question - "Do you like this?"
             await Swal.fire({
                 title: "Please say yes!",
                 text: "I really hope you do...",

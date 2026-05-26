@@ -14,44 +14,50 @@ export default function FinalScreen() {
 
   const proposalMessage = `I never planned for this.
 I never expected someone to arrive
-and quietly rearrange my inner world.
-But you did.
+and quietly rearrange few things inside us.
+But you did. 💝
 
-You stepped into my life without noise,
+You stepped into our lives without noise,
 and somehow everything softened.
 With you, happiness isn’t loud.
 It’s subtle.
 It’s in small thoughts,
 in unspoken smiles,
 in moments that feel complete
-even when nothing extraordinary is happening.
+even when nothing extraordinary is happening. ❤️‍🔥
 
 You make ordinary things feel meaningful.
 You make effort feel natural.
 You make me want to protect what I feel,
 not rush it, not misuse it,
-just keep it safe.
+just keep it safe. 💚
 
-I don’t love you recklessly.
-I love you carefully.
+And if life gets heavy someday… 
+Remember someone once made an entire website
+just to see you smile.
 With intention.
 With loyalty.
 With the kind of patience that stays
-even when words fall short.
+even when words fall short. 🧡
 
 I don’t promise perfection.
 I don’t promise ease.
 But I promise presence.
 I promise honesty.
-And I promise a heart that chooses you
-again and again,
-even on days when choosing is hard.
+And I promise a heart that chooses your
+smile over and again,
+even on days when choosing is hard. 💞
 
-If love is meant to be a place,
-then mine is here —
+If memory is meant to be a place,
+then mine is here
 standing quietly beside you,
 ready to face whatever comes,
-as long as it’s with you.`
+as long as it’s with you. 💗
+
+Happy Birthday to someone 
+we will always quietly care about.
+
+FOR YOU, FOR ALL OF US 🫰🏻`
 
   useEffect(() => {
     if (cardOpen && !typingComplete) {
@@ -202,7 +208,7 @@ as long as it’s with you.`
               <motion.h2
                 className="text-2xl md:text-3xl bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent mt-10 mb-8 font-semibold"
               >
-                So, Will you be mine forever?
+                I hope life protects your heart forever. 🤍 "
               </motion.h2>
 
               <motion.button
@@ -210,7 +216,7 @@ as long as it’s with you.`
                 className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-4 text-xl font-semibold rounded-full transition-all duration-300 hover:scale-105 shadow-2xl flex items-center justify-center mx-auto"
               >
                 <Heart className="w-5 h-5 mr-2 fill-current" />
-                Yes, forever!
+                Keeping It Interesting! 🙈
                 <Heart className="w-5 h-5 ml-2 fill-current" />
               </motion.button>
 
@@ -292,13 +298,15 @@ as long as it’s with you.`
               transition={{ delay: 2.5, duration: 1 }}
             >
               <h1 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent mb-2 leading-tight">
-                Let's make it worth it... Forever
+                Remember, We are not done yet 🐱 
+               Have patience, After 5 years! 🤌
+              
               </h1>
               <motion.p
                 className="text-3xl md:text-4xl text-pink-300 font-semibold"
               >
-               Forever Yours <br />
-               @ sAiMa_hUzAiF ✨
+               Also Don't Forget The Bet 😻<br />
+               @ The_Chosen_Family✨
               </motion.p>
             </motion.div>
           </motion.div>
