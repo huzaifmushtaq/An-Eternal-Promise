@@ -26,23 +26,23 @@ export default function PhotoScreen({ onNext }) {
     const photos = [
         {
             id: 1,
-            src: "/images/M.JPG",
+            src: "/images/M.jpg",
         },
         {
             id: 2,
-            src: "/images/E.JPG",
+            src: "/images/E.jpg",
         },
         {
             id: 3,
-            src: "/images/H.JPG",
+            src: "/images/H.jpg",
         },
         {
             id: 4,
-            src:"/images/R.JPG",
+            src:"/images/R.jpg",
         },
         {
             id: 5,
-            src:"/images/U.JPG",
+            src:"/images/U.jpg",
         },
     ]
 
