@@ -75,7 +75,7 @@ FOR YOU, FOR ALL OF US 🫰🏻`
           setTypingComplete(true)
           clearInterval(typingInterval)
         }
-      }, 30)
+      }, 60)
 
       return () => clearInterval(typingInterval)
     }
@@ -136,8 +136,8 @@ FOR YOU, FOR ALL OF US 🫰🏻`
                 <img src="/gif/msg.gif" className="w-28" alt="envelope" />
               </motion.div>
 
-              <h1 className="text-3xl md:text-4xl text-pink-200 mb-8 leading-tight font-semibold">
-                This is just for <span className="text-pink-400 font-bold">you...</span>
+              <h1 className="text-3xl text-center italic md:text-4xl text-pink-200 mb-8 leading-tight font-semibold">
+                Carry This Letter Till End  <span className="text-pink-400 font-bold">Dear Mehru</span>
               </h1>
 
               <div
@@ -216,7 +216,7 @@ FOR YOU, FOR ALL OF US 🫰🏻`
                 className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-4 text-xl font-semibold rounded-full transition-all duration-300 hover:scale-105 shadow-2xl flex items-center justify-center mx-auto"
               >
                 <Heart className="w-5 h-5 mr-2 fill-current" />
-                Keeping It Interesting! 🙈
+                AcHa Listen
                 <Heart className="w-5 h-5 ml-2 fill-current" />
               </motion.button>
 
@@ -297,16 +297,17 @@ FOR YOU, FOR ALL OF US 🫰🏻`
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 2.5, duration: 1 }}
             >
-              <h1 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent mb-2 leading-tight">
-                Remember, We Are Not Done Yet ❤️‍🔥 <br />
-               Have patience, 5 years Hnmm 🤌 <br />
+              <h1 className="text-xl md:text-4xl text-center italic font-bold bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent mb-2 leading-relaxeditalic">
+                Remember, We Are Not Done Yet ❤️‍🔥 <br /><br />
+               Have patience, See u after 5 years 🤌 <br /><br />
               
               </h1>
               <motion.p
-                className="text-3xl md:text-4xl text-pink-300 font-semibold"
+                className="text-2xl md:text-4xl text-pink-300 font-semibold italic mt-4 leading-relaxed"
               >
-               Don't Forget The Bet ✨<br />
-               @ The_Chosen_Family ❤️‍🔥
+               Don't Forget The Bet✨<br />
+               
+               @ The_Chosen_Family❤️‍🔥
               </motion.p>
             </motion.div>
           </motion.div>

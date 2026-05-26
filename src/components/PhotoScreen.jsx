@@ -58,12 +58,12 @@ export default function PhotoScreen({ onNext }) {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3, duration: 1 }}
             >
-                <h1 className="text-2xl md:text-3xl text-pink-200 leading-relaxed mb-4 font-semibold">
+                <h1 className="text-2xl md:text-3xl text-center italic text-pink-200 leading-relaxed mb-4 font-semibold">
                     From the first day I met you, life became <span className="text-pink-400 font-bold">brighter...</span>
                 </h1>
 
                 <motion.p
-                    className="text-xl md:text-2xl text-purple-300"
+                    className="text-xl md:text-2xl text-center italic text-purple-300"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 1 }}
@@ -127,15 +127,15 @@ export default function PhotoScreen({ onNext }) {
                     animate={{ opacity: [0.6, 1, 0.6] }}
                     transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}
                 >
-                    Now for the most important part...
+                    Made with love, respect, and a thousand unspoken feelings.
                 </motion.p>
 
                 <button
                     onClick={onNext}
-                    className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105 shadow-lg flex items-center justify-center mx-auto pointer-events-auto"
+                    className="bg-gradient-to-r text-center italic from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105 shadow-lg flex items-center justify-center mx-auto pointer-events-auto"
                 >
                     <Heart className="w-5 h-5 mr-2 fill-current heartbeat-animation" />
-                    Final Step 💕
+                    Final Step
                     <ArrowRight className="w-5 h-5 ml-2" />
                 </button>
             </motion.div>

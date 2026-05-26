@@ -31,7 +31,7 @@ export default function CuteLoader({ onComplete }) {
             </div>
 
             <motion.h2
-                className="text-2xl text-center bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent"
+                className="text-xl md:text-2xl text-center italic font-light bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent leading-relaxed"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.5 }}

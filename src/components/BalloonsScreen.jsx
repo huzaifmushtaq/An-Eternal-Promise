@@ -74,8 +74,8 @@ export default function BalloonsScreen({ onNext }) {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5, duration: 1 }}
       >
-        <h1 className="text-3xl md:text-4xl text-pink-200 leading-tight font-semibold">
-          May your heart always find reasons to smile. <span className="text-pink-400 font-bold">Ameen... 🌸 </span>
+        <h1 className="text-3xl md:text-4xl text-center italic text-pink-200 leading-tight font-semibold">
+          May your heart always find reasons to smile. <span className="text-pink-400 font-bold">Ameen 🌸 </span>
         </h1>
         <motion.p
           className="text-pink-300/80 text-lg mt-4 italic"
@@ -116,13 +116,13 @@ export default function BalloonsScreen({ onNext }) {
 
         <motion.button
           onClick={onNext}
-          className={`bg-gradient-to-r from-pink-500 via-pink-600 to-red-500 hover:from-pink-600 hover:via-pink-700 hover:to-red-600 text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105 shadow-2xl flex items-center justify-center pointer-events-none animate-fadeInButton}`}
+          className={`bg-gradient-to-r text-center italic from-pink-500 via-pink-600 to-red-500 hover:from-pink-600 hover:via-pink-700 hover:to-red-600 text-white px-8 py-4 text-lg font-semibold rounded-full transition-all duration-300 hover:scale-105 shadow-2xl flex items-center justify-center pointer-events-none animate-fadeInButton}`}
           style={{
             animation: "fadeInButton 1s ease forwards 3.5s"
           }}
         >
           <Heart className="w-5 h-5 mr-2 fill-current" />
-          Little more effort... 🌸
+          Moving 🌸
           <ArrowRight className="w-5 h-5 ml-2" />
         </motion.button>
       </motion.div>

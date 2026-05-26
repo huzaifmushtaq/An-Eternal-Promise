@@ -33,9 +33,9 @@ export default function NewYearScreen({ onNext }) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.9, duration: 0.8 }}
         >
-          Hello, Our{" "}
+          Hi,{" "}
           <span className="font-bold bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent">
-            Dearest MeHru 🙈
+            Dearest MeHru 💕
           </span>
         </motion.h1>
 
@@ -65,7 +65,7 @@ export default function NewYearScreen({ onNext }) {
             onClick={onNext}
             className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-4 text-lg font-semibold rounded-full pulse-glow transition-all duration-300 hover:scale-105 shadow-lg"
           >
-            Let's Celebrate 🥰
+            Chalo Chalein 🥰
           </button>
         </motion.div>
       </div>
