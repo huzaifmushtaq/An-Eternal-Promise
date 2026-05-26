@@ -2,7 +2,7 @@ import "./globals.css";
 import MusicProvider from "@/components/MusicProvider";
 
 export const metadata = {
-  title: "Little gift for little Mehru ",
+  title: " Birthday Special _ MEHRU ❤️ ",
   description: "A little surprise made just for you, open it with a smile ❤️",
 };
 

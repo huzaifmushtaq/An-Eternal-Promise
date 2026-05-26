@@ -208,7 +208,7 @@ FOR YOU, FOR ALL OF US 🫰🏻`
               <motion.h2
                 className="text-2xl md:text-3xl bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent mt-10 mb-8 font-semibold"
               >
-                I hope life protects your heart forever. 🤍 "
+                I Hope Life Protects Your Heart Forever. 🤍 
               </motion.h2>
 
               <motion.button
@@ -298,15 +298,15 @@ FOR YOU, FOR ALL OF US 🫰🏻`
               transition={{ delay: 2.5, duration: 1 }}
             >
               <h1 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-pink-400 to-purple-400 bg-clip-text text-transparent mb-2 leading-tight">
-                Remember, We are not done yet 🐱 
-               Have patience, After 5 years! 🤌
+                Remember, We Are Not Done Yet ❤️‍🔥 <br />
+               Have patience, 5 years Hnmm 🤌 <br />
               
               </h1>
               <motion.p
                 className="text-3xl md:text-4xl text-pink-300 font-semibold"
               >
-               Also Don't Forget The Bet 😻<br />
-               @ The_Chosen_Family✨
+               Don't Forget The Bet ✨<br />
+               @ The_Chosen_Family ❤️‍🔥
               </motion.p>
             </motion.div>
           </motion.div>
