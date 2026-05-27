@@ -18,7 +18,7 @@ export default function MusicProvider({ children }) {
     <>
       <audio
         ref={audioRef}
-        src="/audio/bg.mp3"
+        src="/audio/bday.mp3"
         loop
         preload="auto"
       />
